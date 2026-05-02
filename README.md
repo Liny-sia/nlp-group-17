@@ -10,16 +10,12 @@ The goal is to classify reviews into:
 
 We compare multiple machine learning and deep learning models to determine which performs best.
 
----
-
 ## Models Used
 - BERT (Transformer-based model)
 - Logistic Regression
 - LSTM (Recurrent Neural Network)
 - Random Forest Classifier
 - Linear Support Vector Classifier (Linear SVC)
-
----
 
 ## Dataset
 - Source: Product review dataset (CSV file)
@@ -31,8 +27,6 @@ We compare multiple machine learning and deep learning models to determine which
   - Neutral (3)
   - Positive (4–5)
 
----
-
 ## Workflow
 1. Load dataset  
 2. Data cleaning (rename columns, remove missing values)  
@@ -41,15 +35,11 @@ We compare multiple machine learning and deep learning models to determine which
 5. Train and evaluate each model  
 6. Compare results  
 
----
-
 ## Evaluation Metrics
 - Accuracy  
 - Precision  
 - Recall  
 - F1-score  
-
----
 
 ## Setup Instructions
 
@@ -63,20 +53,7 @@ pip install -r requirements.txt
 ### 3. Run the notebook
 Open:
 sentiment_analysis.ipynb
-
 Make sure to select the correct kernel.
-
----
-
-## Project Structure
-project/
-│── sentiment_analysis.ipynb
-│── requirements.txt
-│── dataset/
-│── README.md
-
----
 
 ## Results
 
----
