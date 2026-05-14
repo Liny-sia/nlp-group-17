@@ -10,12 +10,12 @@ The goal is to classify reviews into:
 
 We compare multiple machine learning and deep learning models to determine which performs best.
 
-## Models Used
-- BERT (Transformer-based model)
-- Logistic Regression
-- LSTM (Recurrent Neural Network)
-- Random Forest Classifier
-- Linear Support Vector Classifier (Linear SVC)
+## Models Used and relevant notebook
+- BERT (Transformer-based model) - BERT+LSTM.ipynb
+- Logistic Regression  - LogisticRegression.ipynb
+- LSTM (Recurrent Neural Network) - BERT+LSTM.ipynb
+- Random Forest Classifier  - RandomForestClassifier.ipynb
+- Linear Support Vector Classifier (Linear SVC) -  - LinearSVC.ipynb
 
 ## Dataset
 - Source: Product review dataset (CSV file)
@@ -51,8 +51,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 ### 3. Run the notebook
-Open:
-sentiment_analysis.ipynb
+Open: Relevant Notebook 
 Make sure to select the correct kernel.
 
 
