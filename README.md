@@ -55,5 +55,4 @@ Open:
 sentiment_analysis.ipynb
 Make sure to select the correct kernel.
 
-## Results
 
